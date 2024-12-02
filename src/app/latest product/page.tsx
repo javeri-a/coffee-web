@@ -38,7 +38,9 @@ const LatestProducts = () => {
               <Image
                 src={product.image}
                 alt={product.name}
-                className="w-full h-48 object-cover rounded-md"
+                width={100}
+               height={100}
+                className="w-full h-48 object22-cover rounded-md"
               />
               <h3 className="text-lg font-semibold mt-4">{product.name}</h3>
               <p className="text-[#D3AD7F] font-bold">{product.price}</p>
