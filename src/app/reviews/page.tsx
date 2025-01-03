@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const CustomerReviews = () => {
@@ -38,9 +39,11 @@ const CustomerReviews = () => {
           >
             <p className="text-lg italic mb-4">{review.review}</p>
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src={review.image}
                 alt={review.name}
+                height={20}
+                width={20}
                 className="w-12 h-12 rounded-full border border-gray-700"
               />
               <div>

@@ -1,10 +1,17 @@
 
 import About from "./about/page";
 import ContactUs from "./contact/page";
+
+
 import Header from "./header/page";
-import LatestProducts from "./latest product/page";
-import Menu from "./menu/page";
+
+
+import P from "./Latest/page";
+
+import MenuListing from "./ourmenu/page";
 import CustomerReviews from "./reviews/page";
+
+
 
 
 
@@ -13,11 +20,13 @@ export default function Home(){
     <div>
   <Header/>
 <About/>
-<Menu/>
-<LatestProducts/>
+<MenuListing/>
+<P/>
 <CustomerReviews/>
    <ContactUs/>
 
+
+  
     
     </div>
   )

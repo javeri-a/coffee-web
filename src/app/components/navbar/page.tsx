@@ -31,22 +31,18 @@ export default function Navbar() {
             <Link href={"/"}>
               <li>Home</li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/aboutPage"}>
               <li>About</li>
             </Link>
-            <Link href={"/"}>
-              <li>Products</li>
-            </Link>
-            <Link href={"/"}>
-              <li>Blogs</li>
-            </Link>
+           
+           
             <Link href={"/"}>
               <li>Contact</li>
             </Link>
           </ul>
         </div>
 
-        {/* Icons */}
+      
         <div className="flex space-x-3 text-white items-center">
           <Link href={"/"}>
             <ShoppingCart size={28} />
@@ -83,14 +79,8 @@ export default function Navbar() {
           <Link href={"/"}>
             <li onClick={toggleSidebar}>Home</li>
           </Link>
-          <Link href={"/"}>
+          <Link href={"/aboutpage"}>
             <li onClick={toggleSidebar}>About</li>
-          </Link>
-          <Link href={"/"}>
-            <li onClick={toggleSidebar}>Products</li>
-          </Link>
-          <Link href={"/"}>
-            <li onClick={toggleSidebar}>Blogs</li>
           </Link>
           <Link href={"/"}>
             <li onClick={toggleSidebar}>Contact</li>
