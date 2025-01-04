@@ -79,7 +79,7 @@ export default function Navbar() {
           <Link href={"/"}>
             <li onClick={toggleSidebar}>Home</li>
           </Link>
-          <Link href={"/aboutpage"}>
+          <Link href={"/aboutPage"}>
             <li onClick={toggleSidebar}>About</li>
           </Link>
           <Link href={"/"}>
